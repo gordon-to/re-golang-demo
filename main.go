@@ -1,10 +1,10 @@
 package main
 
-import {
+import (
 	"sys"
 	"os"
 	"net/http"
-}
+)
 
 func main() {
 	done := make(chan int, 1)
